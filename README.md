@@ -25,7 +25,8 @@ let wordleData = {
 このシステムでは、Google Apps Script を利用し、外部からスクリプト自体を書き換えることによって、Wordle 問題データの自動更新を実現しています。
 
 3. Google Apps Script にて、単体の新規スクリプトを作成します
-4. Misskey の **API Console よりトークン発行エンドポイントを直接呼び出し**、権限 `write:flash` を持つ API トークンを作成します
+4. Misskey の **API Console よりトークン発行エンドポイントを直接呼び出し**、権限 `write:flash` を持つ API トークンを作成します  
+   ![API Consoleの指定](./img/docs_token.png)
 5. `script.gs` をコピーし、貼り付けます
 6. スクリプトを保存します
 7. 「プロジェクトの設定」→「スクリプト プロパティ」と進み、以下の値をすべて設定します
